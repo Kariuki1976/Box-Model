@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-image: url(Image/slimmm.jpeg);
+    /* background: red; */
+}
+
+ul {
+    /* display: flex; */
+    list-style: none;
+    /* border: 1px solid blue; */
+    margin-top: 80px;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    margin-left: -50px;
+}
+
+ul li {
+    display: inline;
+    /* border: 1px solid green; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 150px;
+}
+
+#dropdown {
+    border: none;
+    background: grey;
+}
+
+.contact {
+    margin-top: 70px;
+    /* border: 2px solid blue; */
+    height: 40px;
+    width: 120px;
+    margin-right: 40px;
+    background: blue;
+    border-radius: 15px;
+}
+
+.news {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+📔.service {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.grid {
+    border: 20px solid black;
+    height: 1200px;
+    background: #d4d4c9;
+}
+
+.grail {
+    /* border: 1px solid green; */
+    height: 150px;
+    margin: 50px;
+    background: blue;
+}
+
+.holy {
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    font-size: 70px;
+    padding-top: 30px;
+}
+
+.overall {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.slim {
+    /* border: 1px solid red; */
+    height: 700px;
+    width: 400px;
+    background: rgb(5, 141, 187);
+}
+
+.slim2 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.main {
+    border: 1px solid blue;
+    width: 750px;
+    height: 700px;
+    background: brown;
+}
+
+.main2 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.sidebar {
+    /* border: 1px solid red; */
+    height: 700px;
+    width: 400px;
+    background: rgb(5, 141, 187);
+}
+
+.sidebar2 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.foot {
+    /* border: 1px solid red; */
+    margin: 50px;
+    height: 150px;
+    background: blue;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 70px;
+    padding-top: 30px;
+}
